@@ -26,14 +26,14 @@
 
             <div class="collapse navbar-collapse " id="myNav">
                 <ul class="navbar-nav menu-color justify-content-center w-100">
-                    <li class="nav-item"><a class="nav-link" href="#home-section">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#about-section">About Us</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#gallery-section">Portfolio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#fetures-section">Features</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Shortcodes</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link smoothScroll" href="#home-section">Home</a></li>
+                    <li class="nav-item"><a class="nav-link smoothScroll" href="#about-section">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link smoothScroll" href="#gallery-section">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link smoothScroll" href="#features-section">Features</a></li>
+                    <li class="nav-item"><a class="nav-link smoothScroll" href="#blog">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link smoothScroll" href="#">Pricing</a></li>
+                    <li class="nav-item"><a class="nav-link smoothScroll" href="#">Shortcodes</a></li>
+                    <li class="nav-item"><a class="nav-link smoothScroll" href="#">Contact</a></li>
                 </ul>
 
                 <form class="form-inline">
@@ -166,29 +166,34 @@
     <!-- Gallery section  -->
     <section id="gallery-section">
         <div class="container">
-            <div class="head-section">
-                <h2>Our Latest Projects.</h2>
-                <p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam
-                    processus dynamicus, qui sequitur mutationem consuetudium.</p>
-            </div> <!-- // .head-section -->
+            <div class="row">
+                <div class="col-sm-12 col-md-12">
+                    <div class="head-section">
+                        <h2>Our Latest Projects.</h2>
+                        <p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est
+                            etiam
+                            processus dynamicus, qui sequitur mutationem consuetudium.</p>
+                    </div> <!-- // .head-section -->
 
-            <div class="menu">
-                <ul>
-                    <li class="active" data-filter="all">All</li>
-                    <li data-filter=".web-design">Web Design</li>
-                    <li data-filter=".mobile">Mobile App</li>
-                    <li data-filter=".illustration">Illustration</li>
-                    <li data-filter=".photography">Photography</li>
-                </ul>
-            </div> <!-- // .menu -->
+                    <div class="menu">
+                        <ul>
+                            <li class="active" data-filter="all">All</li>
+                            <li data-filter=".web-design">Web Design</li>
+                            <li data-filter=".mobile">Mobile App</li>
+                            <li data-filter=".illustration">Illustration</li>
+                            <li data-filter=".photography">Photography</li>
+                        </ul>
+                    </div> <!-- // .menu -->
+                </div>
+            </div>
 
             <div class="gallery">
                 <div class="row">
                     <div class="col-md-4 mix photography  padding-around" data-order="1">
                         <div class="item">
-                            <figure>
+                            <figure class="fig-item">
                                 <img src="assets/img/gallery/img1.jpg" alt="">
-                                <figcaption>
+                                <figcaption class="fig-caption">
                                     <h5>Claritas Etiam Processus</h5>
                                     <p>Photography, Nature</p>
                                 </figcaption>
@@ -200,9 +205,9 @@
                     </div>
                     <div class="col-md-4  mix mobile web-design padding-around" data-order="2">
                         <div class="item">
-                            <figure>
+                            <figure class="fig-item">
                                 <img src="assets/img/gallery/img2.jpg" alt="">
-                                <figcaption>
+                                <figcaption class="fig-caption">
                                     <h5>Claritas Etiam Processus</h5>
                                     <p>Photography, Nature</p>
                                 </figcaption>
@@ -214,9 +219,9 @@
                     </div>
                     <div class="col-md-4 mix illustration padding-around" data-order="3">
                         <div class="item">
-                            <figure>
+                            <figure class="fig-item">
                                 <img src="assets/img/gallery/img3.jpg" alt="">
-                                <figcaption>
+                                <figcaption class="fig-caption">
                                     <h5>Claritas Etiam Processus</h5>
                                     <p>Photography, Nature</p>
                                 </figcaption>
@@ -228,9 +233,9 @@
                     </div>
                     <div class="col-md-4 mix mobile web-design photography  padding-around" data-order="4">
                         <div class="item">
-                            <figure>
+                            <figure class="fig-item">
                                 <img src="assets/img/gallery/img4.jpg" alt="">
-                                <figcaption>
+                                <figcaption class="fig-caption">
                                     <h5>Claritas Etiam Processus</h5>
                                     <p>Photography, Nature</p>
                                 </figcaption>
@@ -242,9 +247,9 @@
                     </div>
                     <div class="col-md-4 mix illustration padding-around" data-order="5">
                         <div class="item">
-                            <figure>
+                            <figure class="fig-item">
                                 <img src="assets/img/gallery/img5.jpg" alt="">
-                                <figcaption>
+                                <figcaption class="fig-caption">
                                     <h5>Claritas Etiam Processus</h5>
                                     <p>Photography, Nature</p>
                                 </figcaption>
@@ -256,9 +261,9 @@
                     </div>
                     <div class="col-md-4 mix web-design photography padding-around" data-order="6">
                         <div class="item">
-                            <figure>
+                            <figure class="fig-item">
                                 <img src="assets/img/gallery/img6.jpg" alt="">
-                                <figcaption>
+                                <figcaption class="fig-caption">
                                     <h5>Claritas Etiam Processus</h5>
                                     <p>Photography, Nature</p>
                                 </figcaption>
@@ -269,7 +274,7 @@
                         </div> <!-- // .item -->
                     </div>
                 </div>
-            </div>
+            </div> <!-- // .gallery -->
         </div> <!-- // .container -->
     </section>
 
@@ -285,7 +290,7 @@
             <p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius, qui sequitur mutationem
                 consuetudium.</p>
         </div>
-    </section>
+    </section> <!-- // .video-section -->
     <!-- end of video section -->
 
     <!-- fetures section -->
@@ -318,7 +323,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> <!-- // .fetures-sectio -->
 
     <!-- End of fetures section -->
 
@@ -463,19 +468,49 @@
                 <a class="carousel-control-next" href="#post-slide" role="button" data-slide="next">
                     <i class="fa fa-chevron-circle-right" aria-hidden="true"></i>
                 </a>
-            </div>
+            </div> <!-- // .slide-control -->
         </div> <!-- // .container -->
 
     </section> <!-- // #blog -->
     <!-- End of blog section -->
+
+    <!-- client section -->
+    <section id="client-section">
+        <div class="container">
+            <div class="partners">
+                <div class="row partners-row">
+                    <div class="col-sm-12 col-md-3">
+                        <img src="assets/img/partners/1.png" class="img-fluid d-block" alt="partners logo">
+                    </div>
+                    <div class="col-sm-12 col-md-3">
+                        <img src="assets/img/partners/2.png" class="img-fluid d-block" alt="partners logo">
+                    </div>
+                    <div class="col-sm-12 col-md-3">
+                        <img src="assets/img/partners/3.png" class="img-fluid d-block" alt="partners logo">
+                    </div>
+                    <div class="col-sm-12 col-md-3">
+                        <img src="assets/img/partners/4.png" class="img-fluid d-block" alt="partners logo">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- client section -->
+
 
     <!-- js plugin -->
     <script src="assets/js/jquery-3.5.min.js"></script>
     <script src="assets/js/popper.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/mixitup.min.js"></script>
+    <script src="assets/js/smooth-scroll.polyfills.min.js"></script>
     <script>
         var mixer = mixitup('.gallery');
+        var scroll = new SmoothScroll('a[href*="#"]', {
+            speed: 700,
+            speedAsDuration: true
+        });
     </script>
 </body>
 
