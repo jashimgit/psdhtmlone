@@ -248,10 +248,18 @@ p {
 /* ==============================
 portfolio gallery section 
 =================================*/
+#gallery-section {
+    position: relative;
+}
+
 .head-section {
     text-align: center;
-    width: 720px;
+    /* width: 720px; */
     margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .head-section h2 {
@@ -265,6 +273,12 @@ portfolio gallery section
     font-size: 16px;
     font-weight: 300;
     color: #afafaf;
+    margin-bottom: 20px;
+}
+
+.menu {
+    margin-top: 30px;
+
 }
 
 .menu ul {
@@ -487,6 +501,50 @@ portfolio gallery section
 }
 
 
+/* count-section */
+
+#count-section {
+    background: linear-gradient(90deg, rgba(39, 30, 27, 1) 34%, rgba(76, 50, 38, 1) 81%);
+}
+
+
+.counter-inner {
+    padding-top: 66px;
+    padding-bottom: 49px;
+}
+
+.counter-item i {
+    color: #c7b299;
+    font-size: 12px;
+    font-weight: 200;
+    font-size: 45px;
+    padding-bottom: 25px;
+}
+
+.counter-item h4 {
+    font-weight: 600;
+    font-size: 48px;
+}
+
+
+.counter-item p {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #c7b299;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.counter-border {
+    width: 30px;
+    background: #fff;
+    height: 2px;
+    margin: 0 auto;
+}
+
+
+
 /*==========================
 blog section 
 ============================*/
@@ -630,9 +688,11 @@ blog section
     background: #555556;
     padding: 135px 0px;
 }
+
 .partners-row {
     align-self: center;
 }
+
 .partners-row img {
     max-width: 100%;
 }
